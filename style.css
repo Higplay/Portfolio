@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 26px;
+    justify-content: right;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    padding: 40px 50px;
+}
+
+nav ul li a {
+    color: rgb(109,219,154);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+    margin-top:100px;
+}
+
+.hero {
+    background-image: url(./img/7e2f2f59e9b5050003aa8e02cc3a9f42.jpg);
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.hero p {
+    color: rgb(109,219,154);
+    font-size: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+.text_left h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: rgb(109,219,154);
+}
+
+.text_left p {
+    color: rgb(77,87,139);
+    font-size: 20px;
+    text-align: left; 
+}
+
+.text_left {
+    text-align: left;
+    width: 400px;
+}
+
+.text_right {
+    text-align: right;
+    width: 400px;
+}
+
+.text_right h3 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.text_right p {
+    color:rgb(109,219,154);
+    font-size: 25px;
+    text-align: right;
+}
+
+.about .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+    padding: 30px;
+}
+
+.knowledge {
+    padding: 100px 0;
+    background: rgb(243,248,255);
+}
+
+.text_left_knowledge {
+    text-align: left;
+    width: 800px;
+}
+
+.text_left_knowledge h4 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.text_left_knowledge p {
+    color: rgb(77,87,139);
+    font-size: 18px;
+    text-align: left; 
+}
+
+.text_right_knowledge  {
+    text-align: center;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.text_right_knowledge h5 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: rgb(109,219,154);
+}
+
+.text_right_knowledge span {
+    color: rgb(77,87,139);
+    font-size: 18px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.knowledge .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.port_img {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: nowrap;
+}
